@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Notice" representedClassName="Notice" syncable="YES">
+        <attribute name="notice_description" optional="YES" attributeType="String"/>
+        <attribute name="notice_heading" optional="YES" attributeType="String"/>
+        <attribute name="notice_id" optional="YES" attributeType="String"/>
+        <attribute name="notice_image" optional="YES" attributeType="String"/>
+        <attribute name="notice_send_date_time" optional="YES" attributeType="String"/>
+        <attribute name="student_name" optional="YES" attributeType="String"/>
+        <attribute name="teacher_name" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="Notice" positionX="132.01953125" positionY="-80.76809692382812" width="128" height="163"/>
+    </elements>
+</model>
